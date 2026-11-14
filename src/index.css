@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light;
+  --ink: #141c24;
+  --ink-soft: #5a6672;
+  --paper: #f6f1e8;
+  --panel: rgba(255, 255, 255, 0.72);
+  --sea: #0f6e66;
+  --sea-deep: #0b4f49;
+  --sand: #cbb89a;
+  --line: rgba(20, 28, 36, 0.12);
+  --shadow: 0 22px 60px rgba(20, 28, 36, 0.14);
+  font-family: Outfit, system-ui, sans-serif;
+  line-height: 1.45;
+  color: var(--ink);
+  background:
+    radial-gradient(900px 520px at 0% 0%, #d9ebe4 0%, transparent 55%),
+    radial-gradient(800px 480px at 100% 10%, #efe2cc 0%, transparent 50%),
+    linear-gradient(180deg, #f8f4ec 0%, #eef2ee 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
